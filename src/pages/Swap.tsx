@@ -83,8 +83,7 @@ export const Swap = () => {
                 fontWeight: '700 !important',
               }}
               typography={{
-                xs: 'h3',
-                sm: 'h2',
+                xs: 'h2',
                 md: 'h1',
               }}
               align="center">

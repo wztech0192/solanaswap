@@ -17,8 +17,8 @@ const AnimatedBackground = memo(() => {
         minHeight: 200.0,
         minWidth: 200.0,
         scale: 1.0,
-        scaleMobile: 1.0,
-        speedLimit: 3.0,
+        scaleMobile: 1,
+        speedLimit: 0.3,
         color1: '#9945ff',
         color2: '#14f195',
         colorMode: 'lerp',
@@ -47,7 +47,7 @@ const AnimatedBackground = memo(() => {
       />
       <Box
         sx={{
-          backdropFilter: 'blur(3px)',
+          backdropFilter: 'blur(8px)',
         }}
         width="100%"
         height="100vh"
