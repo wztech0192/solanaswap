@@ -6,7 +6,7 @@ export const Swap = () => {
   useLayoutEffect(() => {
     const initPolyswapApp = () => {
       window.InitPolyswapApp('polyswap-root', {
-        marketer: 'Legion-Coin',
+        marketer: 'SolanaSwap',
         defaultSlippage: 5,
         affiliateFee: 1.5,
 
